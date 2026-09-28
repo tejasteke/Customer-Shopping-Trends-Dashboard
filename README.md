@@ -1,4 +1,4 @@
-# 🛍️ Customer Shopping Trends Dashboard (Power BI)
+#  Customer Shopping Trends Dashboard (Power BI)
 
 An interactive Power BI dashboard that analyses customer shopping behaviour across Indian retail and e-commerce. It covers revenue by channel, city, month and subscription status, plus discounts, returns, delivery time and review ratings.
 
@@ -8,7 +8,7 @@ An interactive Power BI dashboard that analyses customer shopping behaviour acro
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Understanding how customers shop helps businesses tune their products, pricing and marketing. This project turns a raw transaction dataset into a single-page dashboard that answers questions like:
 
@@ -20,11 +20,11 @@ Understanding how customers shop helps businesses tune their products, pricing a
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 **Customer Shopping Trends – Indian Dataset** (10,000 customers, January 2023 – December 2024).
 
-> ⚠️ This is a **synthetic dataset** created for learning data analysis. It was generated with a custom Python relational engine designed to mimic the constraints of Indian retail and e-commerce. Patterns in it reflect the generation logic, not real market behaviour.
+>  This is a **synthetic dataset** created for learning data analysis. It was generated with a custom Python relational engine designed to mimic the constraints of Indian retail and e-commerce. Patterns in it reflect the generation logic, not real market behaviour.
 
 **Design logic of the dataset**
 
@@ -37,7 +37,7 @@ Understanding how customers shop helps businesses tune their products, pricing a
 
 ---
 
-## 🧹 Data Cleaning
+##  Data Cleaning
 
 Rather than dropping columns with missing values, I replaced the blanks to keep all records and fields:
 
@@ -49,7 +49,7 @@ Rather than dropping columns with missing values, I replaced the blanks to keep 
 
 ---
 
-## 📊 Dashboard Features
+##  Dashboard Features
 
 **KPI cards**
 
@@ -72,7 +72,7 @@ Rather than dropping columns with missing values, I replaced the blanks to keep 
 
 ---
 
-## 🎛️ Slicers (Interactive Filters)
+## Slicers (Interactive Filters)
 
 Four slicers let you filter the whole dashboard and explore the data from different angles:
 
@@ -87,7 +87,7 @@ Slicers can be combined. For example, select **Female + Pune + Returned** to see
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 
 - **Online dominates:** online sales are about **77%** of total revenue (₹14.51M of ₹18.90M).
 - **Subscribers are a minority:** subscribers contribute **30.71%** (₹5.80M) of revenue, while non-subscribers contribute **69.29%** (₹13.09M).
@@ -98,21 +98,21 @@ Slicers can be combined. For example, select **Female + Pune + Returned** to see
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - **Power BI Desktop:** data modelling, measures and dashboard design
 - **Excel / Power Query:** data cleaning and preparation
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - The dataset is synthetic, so uniform discounts and flat monthly sales are likely artefacts of how the data was generated.
 - About 22% of brand values are grouped as `Other`, which limits brand-level analysis.
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Return rate (%) by city instead of the return count pie chart
 - Average review rating by brand as a clustered bar chart
@@ -123,7 +123,7 @@ Slicers can be combined. For example, select **Female + Pune + Returned** to see
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 ├── Customer_Shopping_Trends.pbix    # Power BI dashboard file
@@ -138,10 +138,7 @@ Slicers can be combined. For example, select **Female + Pune + Returned** to see
 
 ---
 
-## 👤 Author
+##  Author
 
 **Tejas Teke**
-MCA Student, IMSCDR Ahmednagar | Aspiring Data Analyst
-Skills: Python (Pandas, NumPy, Scikit-learn), SQL, PostgreSQL, Power BI, Excel
-🌐 Portfolio: [tejasteke.github.io](https://tejasteke.github.io)
-"# Customer-Shopping-Trends-Dashboard" 
+
