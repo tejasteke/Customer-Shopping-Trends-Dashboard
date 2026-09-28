@@ -2,9 +2,6 @@
 
 An interactive Power BI dashboard that analyses customer shopping behaviour across Indian retail and e-commerce. It covers revenue by channel, city, month and subscription status, plus discounts, returns, delivery time and review ratings.
 
-![Dashboard Preview](Customer_shopping_Trendss.png)
-
-> Replace the image path above with your dashboard screenshot (for example `images/dashboard.png`).
 
 ---
 
